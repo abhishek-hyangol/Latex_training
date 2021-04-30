@@ -1,0 +1,99 @@
+\documentclass[a4paper]{report}
+%usepackage farak farak use nagari eutai ma comma diyera pani lekhna sakinaxa 
+%For example usepackage{packagename1,packagenname2}
+%esint package is use for the extended form of integral
+\usepackage{amsmath,esint}
+
+\begin{document}
+%latex ko standard form ko lagi\LaTeX
+\chapter{Typesetting in mathematics in \LaTeX}
+
+\begin{eqnarray}
+Y_d=Z_c\\
+a^2+b^2
+\end{eqnarray}
+
+$\int$
+$$\int$$
+$$\int_a^b$$
+$$\int_a^b f(x) dx$$
+%For integration of closed path
+$$\oint_a^b f(x) dx$$
+
+%For double integration
+$$\iint$$
+$$\int_a^b\int_c^d f(x,y) dx dy$$
+$$\oiint$$
+
+%for triple integration
+$$\iiint$$
+$$\int_a^b\int_c^d\int_e^f f(x,y,z) dx dy dz$$
+
+\section{Square Root,Cube root}
+$$\sqrt{5}$$
+
+$$\sqrt{2+\sqrt{2}}$$
+$$\frac{\sqrt{a^2+b^2}}{\sqrt{2}}$$
+$$\frac{d^{2}y}{dx^2}+\frac{dy}{dx}+y=0$$
+
+$$\frac{dy}{dx}+y=0$$
+
+\section{Typesetting matrix}
+\begin{equation}
+	A =(
+	\begin{array}{ccc}
+	a & b & c\\
+	d & e & f\\
+	g & h & i
+	\end{array}
+	)
+\end{equation}
+$$
+	A = \left(
+	\begin{array}{ccc}
+	a & b & c\\
+	d & e & f\\
+	g & h & i
+	\end{array}
+	\right)
+$$
+
+$$
+	A = \left[
+	\begin{array}{ccc}
+	a & b & c\\
+	d & e & f\\
+	g & h & i
+	\end{array}
+	\right]
+$$
+
+$$
+	A = \left\{
+	\begin{array}{ccc}
+	a_{11} & b_{12} & c_{13}\\
+	d_{21}& e_{22} & f_{23}\\
+	g_{31} & h_{32} & i_{33}
+	\end{array}
+	\right\}
+$$
+
+\section{Vector}
+$$\overset{\rightarrow}{a}$$
+$$\overset{\rightarrow}{a}.\overset{\rightarrow}{b}$$
+$$\vec{AB}$$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
