@@ -1,0 +1,131 @@
+\documentclass[12pt]{report}
+\title{Inserting figures}
+\author{avi}
+\date{\today}
+\usepackage{graphicx}
+\usepackage[top=1in,bottom=0.75in,left=1.25in,right=1.1in]{geometry}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage[rightcaption]{sidecap}
+\begin{document}
+\maketitle
+
+%1 line easy command to make table of contents 
+\tableofcontents
+\listoffigures
+\pagebreak
+fbuybdsuyyyyyyyyyyyyyyyyyyyyyyyyyyygsrifsgfiedsigubfdiugbsdigudgbidug
+gndfkgnkjfdngkjdngkdljngd
+dfgdjgndgbdfgd
+dgd
+rg
+dg
+dg
+drgdrg
+rdt
+hthtdhtdtdttdhg
+tdtddd
+\vspace{1cm}
+
+%image halna lai
+\includegraphics[scale=0.1]{abi}\\
+
+fbuybdsuyyyyyyyyyyyyyyyyyyyyyyyyyyygsrifsgfiedsigubfdiugbsdigudgbidug
+gndfkgnkjfdngkjdngkdljngd
+dfgdjgndgbdfgd
+dgd
+rg
+dg
+dg
+drgdrg
+rdt
+hthtdhtdtdttdhg
+
+\vspace{1cm}
+
+%image lai centre ma lana lai
+%\centering le picture ra text dubailai centre ma lyauxa so \begin{centre} vanne environment create garera tyo problem hatauna sakinxa 
+\centering
+\includegraphics[scale=0.1]{abi}
+
+fbuybdsuyyyyyyyyyyyyyyyyyyyyyyyyyyygsrifsgfiedsigubfdiugbsdigudgbidug
+gndfkgnkjfdngkjdngkdljngd
+dfgdjgndgbdfgd
+dgd
+rg
+dg
+dg
+drgdrg
+rdt
+hthtdht
+
+\vspace{1cm}
+
+%image lai custom height and width dina lai
+\centering
+\includegraphics[height=4cm , width=4cm ,angle=0]{abi}
+
+\begin{center}
+\includegraphics[scale=0.1]{abi}
+\end{center}
+
+fbuybdsuyyyyyyyyyyyyyyyyyyyyyyyyyyygsrifsgfiedsigubfdiugbsdigudgbidug
+gndfkgnkjfdngkjdngkdljngd
+dfgdjgndgbdfgd
+dgd
+rg
+dg
+dg
+drgdrg
+rdt
+hthtdht
+
+%pic ma caption halne tarika
+%capital H use garec float vanne package use garnu parxa
+\section{Captioning}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.1]{abi}
+\caption{latex pic}
+\end{figure}
+
+
+\begin{wrapfigure}{r}{0.25\textwidth}
+\includegraphics[width=0.25\textwidth]{abi}
+\caption{latex doc}
+\end{wrapfigure}
+
+fbuybdsuyyyyyyyyyyyyyyyyyyyyyyyyyyygsrifsgfiedsigubfdiugbsdigudgbidug
+gndfkgnkjfdngkjdngkdljngdhthtdht
+fbuybdsuyyyyyyyyyyyyyyyyyyyyyyyyyyygsrifsgfiedsigubfdiugbsdigudgbidug
+gndfkgnkjfdngkjdngkdljngdfbuybdsuyyyyyyyyyyyyyyyyyyyyyyyyyyygsrifsgfiedsigubfdiugbsdigudgbidug
+gndfkgnkjfdngkjdngkdljngd
+dfgdjgndgbhthtdht
+fbuybdsuyyyyyyyyyyyyyyyyyyyyyyyyyyygsrifsgfiedsigubfdiugbsdigudgbidug
+gndfkgnkjfdngkjdngkdljngd
+dfgdjgndgbdfghthtdht
+fbuybdsuyyyyyyyyyyyyyyyyyyyyyyyyyyygsrifsgfiedsigubfdiugbsdigudgbidug
+gndfkgnkjfdngkjdngkdljngd
+dfgdjgndgbdfgd
+hthtdht
+
+%kunai pani photo ko right ma aathawa left ma caption rakhna 
+\begin{SCfigure}[0.1][h]
+\includegraphics[width=0.5\textwidth]{abi}
+\caption{latex doc}
+\end{SCfigure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
